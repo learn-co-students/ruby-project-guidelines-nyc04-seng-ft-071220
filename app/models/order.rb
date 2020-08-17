@@ -1,2 +1,5 @@
 class Order < ActiveRecord::Base
-end 
+    belongs_to :user
+    belongs_to :restaurant
+    belongs_to :dish
+end
